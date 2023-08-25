@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> <link rel="stylesheet" type="text/css" href="arquivo.css" /> <link rel="stylesheet" type="text/css" href="layout.css" />
+</style> |
+    <title> Cadastre-se </title>
+</head> <meta charset="utf-8">
+<body> 
+    <header>
+    <p> <h1> Informações do Usuário </h1></p>
+    </header>
+
+    <content>
+	 <h2> <em> ATENÇÃO: preencha as informações com cuidado! </em> </h2>
+
+	 <b> Nome: <input type="text"> </b>
+	 <br>
+	 <b> Idade: </b>  <select>
+	 	  <option> Menor de 18 anos </option>  
+	 	  <option> Maior de 18 anos </option>
+	 	  <br> </select>
+	 	  <br>
+     <b> Endereço: </b> <input type="text"> 
+     <br>
+
+
+     <b> Estado: </b>   <select>
+     <option> Ceará </option> 
+     <option> São Paulo </option> 
+     <option> Rio de Janeiro </option> 
+     </select>
+     <br>
+     <h3> Marque as opções que voce gosta: </h3>
+     <input type="checkbox" name="gosto"> Comida </input> 
+     <br>
+     <input type="checkbox" name="gosto"> Música </input> 
+     <br>
+     <input type="checkbox" name="gosto"> Lugares calmos </input>
+     <br>
+    </content>
+
+     <nav>
+        
+        <style>
+            .mainmeubtn {
+                background-color: rgb(67, 111, 168);
+                color: black;
+                border: none;
+                cursor: pointer;
+                padding: 20px;
+                margin-top: 20px;
+            }
+            .mainmenubnt:hover {
+                background-color:rgb(104, 129, 211);
+                }
+                .dropdown {
+                    position: relative;
+                    display: inline-block;
+                }
+                .dropdown-child {
+                    display: none;
+                    background-color:rgb(133, 122, 184);
+                    min-width: 200px;
+                    }
+                    .dropdown-child a {
+                        color:aquamarine;
+                        padding: 20px;
+                        text-decoration: none;
+                        display: block;
+                    }
+                    .dropdown-child a:hover {
+                        background-color: white;
+                    }
+                    .dropdown:hover  .dropdown-child {
+                        display: block;
+                    }
+    </style>
+
+        <div class="dropdown">
+            <button class="mainmenubtn"> Menu </button>
+            <div class="dropdown-child"
+            <center>
+        <br>
+         <br>
+         <h2> <a href="Hotel.html"> Home </a> <hr> </h2>
+         <br>
+         <br>
+         <h2> <a href="Reserva.html"> Reserva </a> <hr> </h2>
+         <br>
+         <br>
+         <h2><a href="Acomodações.html"> Acomodações </a> <hr> </h2>
+         <br>
+         <br>
+         <h2> <a href="Parceiros.html"> Parceiros </a> <hr> </h2>
+         <br> 
+         <br>
+         <button> <a href="Acomodações.html"> Próximo </a></button> 
+           </center>
+
+       </nav>
+
+    <footer>
+        <center><h2> Agradecemos sua preferência! </h2> </center>
+    </footer>
+</body>
+</html>
